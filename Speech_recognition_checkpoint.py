@@ -84,7 +84,7 @@ def toggle_pause():
     st.info(status)
 
 # Streamlit UI
-st.title("🎙 Erinola Speech Recognition App")
+st.title("🎙 Eniola Speech Recognition App")
 
 # Select API
 api_choice = st.selectbox("Choose Speech Recognition API:", list(APIS.keys()))
